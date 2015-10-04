@@ -65,9 +65,9 @@ The learning is subsequently evaluated on 2013 and 2009 data. Below are details 
   - I look at the number of colleges as a function of the completion rate, from the test data, from the random forest prediction and from the SVM prediction. Both methods turn out to perform badly for large values of the completion rate. The next step in the analysis would be to look at distributions of the training variables separately for low and high completion rates, and try to understand why the training is poorer in the latter case.
 
   - The data are not very reliable owing to the large number of privacy suppressions. To get an idea of the spread of the data (statistical and systematic components convolved), I ran the test on 2009 data. The fraction of correct predictions are thus:
-        random forest: 65%
-        SVM: 69%
+      - random forest: 65%
+      - SVM: 69%
 
-    which are within ~10% of the 2013 numbers.
+   which are within ~10% of the 2013 numbers.
 
   - The important conclusions of this study are not the performance of the MVAs, but the factors that they show to affect program completion rates the most. In general, they agree with our naive expectations as to why someone may fail to complete a college program.
